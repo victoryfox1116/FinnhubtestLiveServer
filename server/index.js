@@ -8,7 +8,7 @@ app.use(bodyparser.json({limit: '50mb'}));
 
 const corsOptions ={
     // origin:'http://localhost:3000',
-    origin: 'https://finnhubtest.netlify.app', 
+    origin: 'https://finnhubtest.onrender.com', 
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200
 };
